@@ -1,0 +1,20 @@
+{
+    "welcome": "Welcome to Astana Animal Shelter",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "animals": "Animals",
+    "add_animal": "Add Animal",
+    "edit_animal": "Edit Animal",
+    "name": "Name",
+    "species": "Species",
+    "status": "Status",
+    "actions": "Actions",
+    "save": "Save",
+    "cancel": "Cancel",
+    "logout": "Logout",
+    "success": "Authorization passed successfully",
+    "auth": {
+        "success": "Authorization passed successfully"
+    }
+}
