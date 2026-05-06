@@ -100,7 +100,7 @@ class AnimalController extends Controller
     public function inquire(Animal $animal)
     {
         $user = auth()->user();
-        Mail::to('oralbekurusbekov2022@gmail.com')->send(new AdoptionInquiry($animal, $user));
+        Mail::to('aizhan.sagatova@narxoz.kz')->send(new AdoptionInquiry($animal, $user));
         return back()->with('success', 'Sent!');
     }
 }
